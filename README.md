@@ -20,7 +20,7 @@ Each module must accept one command line argument that is a message to add to a 
 Each module must be able to serialize a hash to a file named messages.
 Each module must be able to deserialize the hash stored in messages.
 Each module, after the object is deserialized from the file, must add the message to the appropriate list in the hash.
-Each module must handle exceptions properly. You may encounter the following while testing your logic.
+Each module must [handle exceptions](https://github.com/nashville-software-school/bangazon-ltd/blob/master/orientation/FND_10_EXCEPTION_HANDLING.md) properly. You may encounter the following while testing your logic.
 FileNotFoundError
 EOFError
 KeyError
